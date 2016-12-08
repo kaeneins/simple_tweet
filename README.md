@@ -1,7 +1,7 @@
 
 ## users テーブル
 
- #### Column
+#### Column
    * id : integer
    * user_name : string
    * email : string
@@ -15,7 +15,7 @@
  * 　
 
 ## follows テーブル
- #### Column
+#### Column
   * id :integer
   * follow_id : integer
   * followed_id : integer
@@ -33,7 +33,7 @@
   * belongs_to : users
 
 ## tweets テーブル
- #### Column
+#### Column
  * id : integer
  * users_id : integer
  * tweets_id : integer
@@ -47,7 +47,7 @@
  * has_many : favorites
 
 ## tweet_images テーブル 
- #### Column
+#### Column
  * id : integer
  * tweets_id : integer
  * image : string
