@@ -1,0 +1,6 @@
+- @user.following.each do |user|
+  %table
+    %tr
+      %td
+        = user.user_name
+      %td= link_to '詳細', user_path(user)
